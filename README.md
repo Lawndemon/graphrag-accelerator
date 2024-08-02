@@ -14,6 +14,18 @@ For FAQ, access instructions, and our roadmap, please visit `aka.ms/graphrag`
 To deploy the solution accelerator, see the [deployment guide](docs/DEPLOYMENT-GUIDE.md). This will result in a full deployment of graphrag as an API.
 Afterwards, check out the [Quickstart](notebooks/1-Quickstart.ipynb) notebook for a demonstration of various API calls.
 
+### setup
+Model Name	            TPM Threshold
+gpt-4 turbo	            80K
+text-embedding-ada-002  300K
+
+# login to Azure - may need to use the "--use-device-code" flag if using a remote host/virtual machine
+az login
+# check what subscription you are logged into
+az account show
+# set appropriate subscription
+az account set --subscription "<subscription_name> or <subscription id>"
+
 ## Development Guide
 Interested in contributing? Check out the [development guide](docs/DEVELOPMENT-GUIDE.md).
 

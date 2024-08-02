@@ -1,10 +1,12 @@
 {
-  "GRAPHRAG_API_BASE": "__GRAPHRAG_API_BASE__",
-  "GRAPHRAG_API_VERSION": "__GRAPHRAG_API_VERSION__",
-  "GRAPHRAG_EMBEDDING_DEPLOYMENT_NAME": "__GRAPHRAG_EMBEDDING_DEPLOYMENT_NAME__",
-  "GRAPHRAG_EMBEDDING_MODEL": "__GRAPHRAG_EMBEDDING_MODEL__",
-  "GRAPHRAG_LLM_DEPLOYMENT_NAME": "__GRAPHRAG_LLM_DEPLOYMENT_NAME__",
-  "GRAPHRAG_LLM_MODEL": "__GRAPHRAG_LLM_MODEL__",
-  "LOCATION": "__LOCATION__",
-  "RESOURCE_GROUP": "__RESOURCE_GROUP__"
+  "CONTAINER_REGISTRY_SERVER": "opensourcererdev.azurecr.io",
+  "GRAPHRAG_API_BASE": "https://cog-opensourcerer-dev.openai.azure.com/",
+  "GRAPHRAG_API_VERSION": "2023-03-15-preview",
+  "GRAPHRAG_EMBEDDING_DEPLOYMENT_NAME": "opensourcerer-embeddings",
+  "GRAPHRAG_EMBEDDING_MODEL": "text-embedding-ada-002",
+  "GRAPHRAG_LLM_DEPLOYMENT_NAME": "opensourcerer-completions-4o",
+  "GRAPHRAG_LLM_MODEL": "gpt-4o",
+  "LOCATION": "canadacentral",
+  "RESOURCE_BASE_NAME": "opensourcerer-dev",
+  "RESOURCE_GROUP": "rg-lvs-opensourcerer-dev"
 }

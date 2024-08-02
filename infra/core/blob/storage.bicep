@@ -1,8 +1,8 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-@description('The name of the Storage Account resource.')
-param name string
+//@description('The name of the Storage Account resource.')
+param name string = 'stopensourcererdev'
 
 @description('The location of the Storage Account resource.')
 param location string = resourceGroup().location
